@@ -1,0 +1,14 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nuxtecommerce-dev-21553-authRole",
+      "UnauthRoleArn": "arn:aws:iam::213330998827:role/amplify-nuxtecommerce-dev-21553-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::213330998827:role/amplify-nuxtecommerce-dev-21553-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-nuxtecommerce-dev-21553-deployment",
+      "UnauthRoleName": "amplify-nuxtecommerce-dev-21553-unauthRole",
+      "StackName": "amplify-nuxtecommerce-dev-21553",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:213330998827:stack/amplify-nuxtecommerce-dev-21553/0599c320-479e-11eb-9e8d-0a5845913b78"
+    }
+  }
+}

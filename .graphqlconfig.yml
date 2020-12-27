@@ -1,0 +1,18 @@
+projects:
+  nuxtecommerce:
+    schemaPath: amplify/backend/api/nuxtecommerce/build/schema.graphql
+    includes:
+      - /graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: /graphql
+        region: ap-northeast-1
+        apiId: null
+        maxDepth: 4
+extensions:
+  amplify:
+    version: 3

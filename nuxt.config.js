@@ -1,3 +1,7 @@
+require('dotenv').config()
+const { STRIPE_PUBLISHABLE_KEY } = process.env
+
+
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
@@ -24,7 +28,8 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    {src:'~/plugins/amplify.js', mode:'client'}
+    { src: '~/plugins/amplify.js', mode: 'client' },
+    '~/plugins/stripe.js'
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -42,7 +47,18 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    'nuxt-stripe-module',
+    '@nuxtjs/dotenv'
   ],
+
+  // stripe: {
+  //   version: 'v3',
+  //   publishableKey: process.env.STRIPE_PUBLISHABLE_KEY
+  // },
+  stripe: {
+    version: 'v3',
+    publishableKey: process.env.STRIPE_PUBLISHABLE_KEY
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},

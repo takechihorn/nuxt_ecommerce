@@ -28,7 +28,11 @@
 </template>
 
 <script>
-export default {}
+export default {
+  mounted(){
+    console.log(process.env.STRIPE_PUBLISHABLE_KEY)
+  }
+}
 </script>
 
 <style>

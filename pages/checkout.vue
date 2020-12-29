@@ -1,10 +1,10 @@
 <template>
   <section className="checkout-wrapper">
     <AmplifyAuthenticator>
-      <Elements stripe={stripePromise}>
+      <Elements stripe="{stripePromise}">
         <section>
           <h2>Time to Checkout</h2>
-          <CheckForm/>
+          <CheckForm />
         </section>
       </Elements>
     </AmplifyAuthenticator>
@@ -12,11 +12,8 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>

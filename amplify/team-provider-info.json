@@ -8,7 +8,8 @@
       "DeploymentBucketName": "amplify-nuxtecommerce-dev-21553-deployment",
       "UnauthRoleName": "amplify-nuxtecommerce-dev-21553-unauthRole",
       "StackName": "amplify-nuxtecommerce-dev-21553",
-      "StackId": "arn:aws:cloudformation:ap-northeast-1:213330998827:stack/amplify-nuxtecommerce-dev-21553/0599c320-479e-11eb-9e8d-0a5845913b78"
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:213330998827:stack/amplify-nuxtecommerce-dev-21553/0599c320-479e-11eb-9e8d-0a5845913b78",
+      "AmplifyAppId": "d2v0l8eh2ayhps"
     },
     "categories": {
       "auth": {

@@ -69,7 +69,7 @@
         "Timeout": "25",
         "Code": {
           "S3Bucket": "amplify-nuxtecommerce-dev-21553-deployment",
-          "S3Key": "amplify-builds/createOrder-39507a5075476d485131-build.zip"
+          "S3Key": "amplify-builds/createOrder-6c575948576c4b522b55-build.zip"
         }
       }
     },
